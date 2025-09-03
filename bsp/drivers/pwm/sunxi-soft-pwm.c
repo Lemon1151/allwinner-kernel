@@ -402,7 +402,8 @@ static int sunxi_soft_pwm_remove(struct platform_device *pdev)
 static struct of_device_id sunxi_soft_pwm_of_match[] = {
 	{.compatible = "sunxi-soft-pwm"},
 	{},
-}
+};
+
 MODULE_DEVICE_TABLE(of, sunxi_soft_pwm_of_match);
 
 static struct platform_driver sunxi_soft_pwm_driver = {
