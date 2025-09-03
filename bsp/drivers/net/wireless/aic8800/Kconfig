@@ -21,9 +21,9 @@ config PLATFORM_ALLWINNER
     bool "AIC8800 Allwinner Support"
 
 if AIC8800_USB
-source "$(BSP_TOP)drivers/net/wireless/aic8800/usb/Kconfig"
+source "bsp/drivers/net/wireless/aic8800/usb/Kconfig"
 endif
 if AIC8800_SDIO
-source "$(BSP_TOP)drivers/net/wireless/aic8800/sdio/Kconfig"
+source "bsp/drivers/net/wireless/aic8800/sdio/Kconfig"
 endif
 endif
